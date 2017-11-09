@@ -1,0 +1,23 @@
+{
+    "name": "chenhua/laravel5-markdown-editor",
+    "description": "The best Markdown Editor of Laravel 5",
+    "keywords": ["laravel", "markdown", "editor"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "homepage": "http://www.81f7.com",
+    "authors": [
+        {
+            "name": "chenhua",
+            "email": "276004561@qq.com"
+        }
+    ],
+    "require": {
+        "qiniu/php-sdk": "^7.2",
+        "aliyuncs/oss-sdk-php": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chenhua\\MarkdownEditor\\" : "src"
+        }
+    }
+}
